@@ -9,6 +9,6 @@ déborde) ; liens des trois sites et des trois installeurs : réponse 200 ; bali
 équilibrées ; aucun mot de la liste des mots interdits.
 **Pourquoi.** Les trois applis avaient chacune leur site sur GitHub Pages, mais l'adresse
 racine `andre12230-png.github.io` répondait « introuvable » : il manquait une adresse
-unique à donner. André a choisi la page commune plutôt que des liens croisés.
+unique à donner. Choix retenu : une page commune plutôt que des liens croisés entre sites.
 **Reste.** Rien n'est en ligne : créer le dépôt public et activer Pages avec son accord ;
 puis un lien vers cette page sur chacun des trois sites.

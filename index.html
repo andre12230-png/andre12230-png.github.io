@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trois logiciels gratuits pour Windows — comptes, solaire, voiture électrique</title>
+<meta name="description" content="Pécule, Gestion Photovoltaïque et Recharges VE : trois logiciels gratuits et open source pour Windows, en français, avec vos données sur votre PC.">
+<!-- Aperçu lors du partage (réseaux sociaux, forums, messageries) -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:url" content="https://andre12230-png.github.io/">
+<meta property="og:title" content="Trois logiciels gratuits pour Windows">
+<meta property="og:description" content="Pécule, Gestion Photovoltaïque et Recharges VE : gratuits, open source, en français, avec vos données sur votre PC.">
+<link rel="canonical" href="https://andre12230-png.github.io/">
+<style>
+  /* Mêmes couleurs et mêmes formes que le site de Pécule, qui sert de modèle. */
+  :root{
+    --bleu:#1F3A6B; --bleu2:#2E5C9E; --fond:#f4f6fa;
+    --txt:#222; --gris:#5b6573; --carte:#ffffff; --bord:#e3e8f0;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:'Segoe UI',system-ui,-apple-system,sans-serif;
+       color:var(--txt);background:var(--fond);line-height:1.6}
+  a{color:var(--bleu2)}
+  .wrap{max-width:960px;margin:0 auto;padding:0 20px}
+
+  header{background:linear-gradient(135deg,#1F3A6B,#2E5C9E);color:#fff;
+         padding:54px 0 46px;text-align:center}
+  header h1{margin:0;font-size:2.2rem;letter-spacing:.5px}
+  header .sub{font-size:1.15rem;opacity:.95;margin:10px auto 0;max-width:640px}
+
+  h2{color:var(--bleu);border-bottom:2px solid var(--bord);padding-bottom:6px;margin-top:36px}
+
+  /* Une carte par logiciel ; elles passent l'une sous l'autre sur un téléphone. */
+  /* min(…, 100%) : sur un écran très étroit, la carte rétrécit au lieu de déborder. */
+  .applis{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr));
+          gap:18px;margin-top:-26px}
+  .appli{background:var(--carte);border:1px solid var(--bord);border-radius:12px;
+         padding:22px 22px 20px;display:flex;flex-direction:column;
+         box-shadow:0 4px 14px rgba(0,0,0,.08)}
+  .appli h3{margin:0 0 8px;color:var(--bleu);font-size:1.3rem}
+  .appli p{margin:0 0 16px;color:var(--gris);flex:1}
+  .appli .btn{display:block;text-align:center;background:var(--bleu);color:#fff;
+              font-weight:700;padding:11px 16px;border-radius:10px;text-decoration:none}
+  .appli .btn:hover{background:var(--bleu2)}
+  .appli .dl{display:block;text-align:center;margin-top:10px;font-size:.92rem}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(200px,100%),1fr));gap:16px;margin-top:18px}
+  /* Téléphone : titre plus petit pour qu'il tienne sur deux ou trois lignes. */
+  @media (max-width:520px){ header h1{font-size:1.6rem} header{padding:40px 0 44px} }
+  .card{background:var(--carte);border:1px solid var(--bord);border-radius:12px;padding:16px 18px}
+  .card h3{margin:0 0 6px;color:var(--bleu2);font-size:1.05rem}
+  .card p{margin:0;color:var(--gris);font-size:.95rem}
+
+  footer{text-align:center;color:var(--gris);font-size:.9rem;padding:30px 0 40px;margin-top:40px;
+         border-top:1px solid var(--bord)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <h1>Trois logiciels gratuits pour Windows</h1>
+    <p class="sub">Pour tenir ses comptes, suivre ses panneaux solaires et le coût de
+    recharge de sa voiture électrique. En français, sans abonnement ni compte en ligne.</p>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <div class="applis">
+    <article class="appli">
+      <h3>💰 Pécule</h3>
+      <p>Tenez vos comptes personnels et préparez votre budget : import des relevés
+      CSV, OFX et QIF, prévisionnel et rapports.</p>
+      <a class="btn" href="https://andre12230-png.github.io/Pecule/">Voir la présentation</a>
+      <a class="dl" href="https://github.com/andre12230-png/Pecule/releases/latest/download/Pecule-Setup.exe">⬇ Télécharger l'installeur</a>
+    </article>
+
+    <article class="appli">
+      <h3>☀️ Gestion Photovoltaïque</h3>
+      <p>Suivez la production de vos panneaux solaires, votre autoconsommation,
+      la vente de votre électricité et les économies de votre installation.</p>
+      <a class="btn" href="https://andre12230-png.github.io/pv-dashboard/">Voir la présentation</a>
+      <a class="dl" href="https://github.com/andre12230-png/pv-dashboard/releases/latest/download/pv-dashboard-Setup.exe">⬇ Télécharger l'installeur</a>
+    </article>
+
+    <article class="appli">
+      <h3>🚗 Recharges VE</h3>
+      <p>Suivez vos recharges à domicile et sur les bornes publiques, leur coût et
+      votre coût électrique aux 100 km.</p>
+      <a class="btn" href="https://andre12230-png.github.io/recharges-ve/">Voir la présentation</a>
+      <a class="dl" href="https://github.com/andre12230-png/recharges-ve/releases/latest/download/Recharges-VE-Setup.exe">⬇ Télécharger l'installeur</a>
+    </article>
+  </div>
+
+  <section>
+    <h2>Ce que les trois ont en commun</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>🆓 Gratuits et libres</h3>
+        <p>Sans abonnement ni publicité. Le code est ouvert, sous licence MIT,
+        et consultable sur GitHub.</p>
+      </div>
+      <div class="card">
+        <h3>🔒 Vos données chez vous</h3>
+        <p>Tout reste sur votre PC : pas de compte à créer, rien n'est envoyé en ligne.</p>
+      </div>
+      <div class="card">
+        <h3>🪟 Pour Windows 10 et 11</h3>
+        <p>Un installeur classique, ou une version portable à décompresser
+        (lien « nouveautés » sur la page de chaque logiciel).</p>
+      </div>
+      <div class="card">
+        <h3>🧭 Une même allure</h3>
+        <p>Même menu à gauche, mêmes boutons de sauvegarde externe et de mise à jour :
+        qui connaît l'un se repère dans les autres.</p>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  Logiciels libres sous licence MIT ·
+  <a href="https://github.com/andre12230-png">Code source sur GitHub</a>
+</footer>
+
+<!-- Analyse de fréquentation respectueuse de la vie privée (sans cookie, GoatCounter),
+     le même compteur que les trois sites des logiciels. -->
+<script data-goatcounter="https://pecule.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+</body>
+</html>

@@ -10,5 +10,8 @@ déborde) ; liens des trois sites et des trois installeurs : réponse 200 ; bali
 **Pourquoi.** Les trois applis avaient chacune leur site sur GitHub Pages, mais l'adresse
 racine `andre12230-png.github.io` répondait « introuvable » : il manquait une adresse
 unique à donner. Choix retenu : une page commune plutôt que des liens croisés entre sites.
-**Reste.** Rien n'est en ligne : créer le dépôt public et activer Pages avec son accord ;
-puis un lien vers cette page sur chacun des trois sites.
+**Puis.** Mise en ligne : dépôt public `andre12230-png.github.io` créé, page poussée,
+Pages activé de lui-même. Page publiée vérifiée (titre, trois cartes) ; compteur de visites :
+envoi vers le serveur qui répond 200.
+**Reste.** Un lien vers cette page sur chacun des trois sites, à la prochaine publication de
+chaque logiciel. Plus tard, si besoin : image de partage, Google Search Console.

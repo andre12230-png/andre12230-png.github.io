@@ -1,0 +1,7 @@
+# Valable pour les quatre sites de cette adresse (accueil, Pecule, pv-dashboard, recharges-ve).
+# Tout est permis aux moteurs de recherche.
+User-agent: *
+Allow: /
+
+Sitemap: https://andre12230-png.github.io/sitemap.xml
+Sitemap: https://andre12230-png.github.io/Pecule/sitemap.xml
